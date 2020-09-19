@@ -22,3 +22,18 @@
   font-size: 25px;
   color: #800080;
 }
+@media screen {
+  .nestedClass {
+    color: blue;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nestedClass {
+    color: green;
+  }
+}
+@media mytext {
+  .nestedClass {
+    color: black;
+  }
+}
