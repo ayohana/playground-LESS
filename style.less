@@ -1,11 +1,33 @@
 // Declare variables
 @primarycolor: #FF7F50;
-@color:#800080;
+@secondarycolor:#800080;
+@fontsize25: 25px;
 
-h1 {
-    color: @primarycolor;
+.orange25 {
+    font-size: @fontsize25;
+    color: @primarycolor; 
 }
 
-h3 {
-    color: @color;
+.maroon25 {
+    font-size: @fontsize25;
+    color: @secondarycolor;
+}
+
+.container {
+    h1 {
+        .orange25();
+    }
+    p {
+        font-size: @fontsize25;
+        color: #3C7949;
+    }
+
+    .myclass {
+        h1 {
+            .orange25();
+        }
+        p {
+            .maroon25();
+        }
+    }
 }

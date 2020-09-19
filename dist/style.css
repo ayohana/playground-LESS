@@ -1,6 +1,24 @@
-h1 {
+.orange25 {
+  font-size: 25px;
   color: #FF7F50;
 }
-h3 {
+.maroon25 {
+  font-size: 25px;
+  color: #800080;
+}
+.container h1 {
+  font-size: 25px;
+  color: #FF7F50;
+}
+.container p {
+  font-size: 25px;
+  color: #3C7949;
+}
+.container .myclass h1 {
+  font-size: 25px;
+  color: #FF7F50;
+}
+.container .myclass p {
+  font-size: 25px;
   color: #800080;
 }
